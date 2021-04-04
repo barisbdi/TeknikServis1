@@ -39,5 +39,15 @@ namespace DXApplication1
             barStaticItem6.Caption = DateTime.Now.ToLongDateString();
             barStaticItem7.Caption = DateTime.Now.ToLongTimeString();
         }
+        Form2 fr;
+        private void barButtonItem3_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            if (fr == null || fr.IsDisposed)
+            {
+                fr = new Form2();
+                fr.MdiParent = this; 
+                fr.Show();
+            }
+        }
     }
 }
