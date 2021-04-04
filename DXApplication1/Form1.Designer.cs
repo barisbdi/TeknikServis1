@@ -68,6 +68,7 @@ namespace DXApplication1
             this.ribbonPage7 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup7 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.barButtonItem17 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem18 = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -94,10 +95,11 @@ namespace DXApplication1
             this.barButtonItem14,
             this.barButtonItem15,
             this.barButtonItem16,
-            this.barButtonItem17});
+            this.barButtonItem17,
+            this.barButtonItem18});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
             this.ribbonControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.ribbonControl1.MaxItemId = 19;
+            this.ribbonControl1.MaxItemId = 20;
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.OptionsMenuMinWidth = 385;
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
@@ -377,6 +379,7 @@ namespace DXApplication1
             // ribbonPageGroup6
             // 
             this.ribbonPageGroup6.ItemLinks.Add(this.barButtonItem17);
+            this.ribbonPageGroup6.ItemLinks.Add(this.barButtonItem18);
             this.ribbonPageGroup6.Name = "ribbonPageGroup6";
             this.ribbonPageGroup6.Text = "ribbonPageGroup6";
             // 
@@ -399,6 +402,12 @@ namespace DXApplication1
             this.barButtonItem17.Caption = "BarışBDİ";
             this.barButtonItem17.Id = 18;
             this.barButtonItem17.Name = "barButtonItem17";
+            // 
+            // barButtonItem18
+            // 
+            this.barButtonItem18.Caption = "ÖzgünATİK";
+            this.barButtonItem18.Id = 19;
+            this.barButtonItem18.Name = "barButtonItem18";
             // 
             // Form1
             // 
@@ -455,6 +464,7 @@ namespace DXApplication1
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup10;
         private DevExpress.XtraBars.BarButtonItem barButtonItem16;
         private DevExpress.XtraBars.BarButtonItem barButtonItem17;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem18;
     }
 }
 
