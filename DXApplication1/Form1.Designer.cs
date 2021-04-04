@@ -135,7 +135,7 @@ namespace DXApplication1
             this.ribbonControl1.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemPictureEdit1,
             this.repositoryItemImageEdit1});
-            this.ribbonControl1.Size = new System.Drawing.Size(1497, 183);
+            this.ribbonControl1.Size = new System.Drawing.Size(1728, 183);
             this.ribbonControl1.StatusBar = this.ribbonStatusBar1;
             // 
             // barButtonItem1
@@ -479,10 +479,10 @@ namespace DXApplication1
             this.ribbonStatusBar1.ItemLinks.Add(this.barStaticItem4);
             this.ribbonStatusBar1.ItemLinks.Add(this.barStaticItem6);
             this.ribbonStatusBar1.ItemLinks.Add(this.barStaticItem7);
-            this.ribbonStatusBar1.Location = new System.Drawing.Point(0, 786);
+            this.ribbonStatusBar1.Location = new System.Drawing.Point(0, 670);
             this.ribbonStatusBar1.Name = "ribbonStatusBar1";
             this.ribbonStatusBar1.Ribbon = this.ribbonControl1;
-            this.ribbonStatusBar1.Size = new System.Drawing.Size(1497, 20);
+            this.ribbonStatusBar1.Size = new System.Drawing.Size(1728, 33);
             // 
             // barStaticItem3
             // 
@@ -525,12 +525,14 @@ namespace DXApplication1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1497, 806);
+            this.ClientSize = new System.Drawing.Size(1728, 703);
             this.Controls.Add(this.ribbonStatusBar1);
             this.Controls.Add(this.ribbonControl1);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit1)).EndInit();

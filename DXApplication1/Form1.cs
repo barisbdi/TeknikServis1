@@ -26,6 +26,9 @@ namespace DXApplication1
             string usd = xmlDoc.SelectSingleNode("Tarih_Date / Currency[@Kod ='USD'] / BanknoteSelling").InnerXml;
             string euro = xmlDoc.SelectSingleNode("Tarih_Date / Currency[@Kod ='EUR'] / BanknoteSelling").InnerXml;
 
+            barStaticItem3.Caption = "Dolar : " + usd;
+            barStaticItem4.Caption = "| Euro : " + euro;
+
             timer1.Start();
 
 
