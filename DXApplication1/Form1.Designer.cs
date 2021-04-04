@@ -47,6 +47,7 @@ namespace DXApplication1
             this.C = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem14 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem15 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem16 = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPage8 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup11 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
@@ -66,7 +67,7 @@ namespace DXApplication1
             this.ribbonPageGroup6 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPage7 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup7 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.barButtonItem16 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem17 = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -92,10 +93,13 @@ namespace DXApplication1
             this.C,
             this.barButtonItem14,
             this.barButtonItem15,
-            this.barButtonItem16});
+            this.barButtonItem16,
+            this.barButtonItem17});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl1.MaxItemId = 18;
+            this.ribbonControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ribbonControl1.MaxItemId = 19;
             this.ribbonControl1.Name = "ribbonControl1";
+            this.ribbonControl1.OptionsMenuMinWidth = 385;
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage8,
             this.ribbonPage1,
@@ -105,7 +109,7 @@ namespace DXApplication1
             this.ribbonPage5,
             this.ribbonPage6,
             this.ribbonPage7});
-            this.ribbonControl1.Size = new System.Drawing.Size(1283, 150);
+            this.ribbonControl1.Size = new System.Drawing.Size(1497, 183);
             // 
             // barButtonItem1
             // 
@@ -252,6 +256,12 @@ namespace DXApplication1
             this.barButtonItem15.LargeWidth = 110;
             this.barButtonItem15.Name = "barButtonItem15";
             // 
+            // barButtonItem16
+            // 
+            this.barButtonItem16.Caption = "adsadsa";
+            this.barButtonItem16.Id = 17;
+            this.barButtonItem16.Name = "barButtonItem16";
+            // 
             // ribbonPage8
             // 
             this.ribbonPage8.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
@@ -366,6 +376,7 @@ namespace DXApplication1
             // 
             // ribbonPageGroup6
             // 
+            this.ribbonPageGroup6.ItemLinks.Add(this.barButtonItem17);
             this.ribbonPageGroup6.Name = "ribbonPageGroup6";
             this.ribbonPageGroup6.Text = "ribbonPageGroup6";
             // 
@@ -383,18 +394,19 @@ namespace DXApplication1
             this.ribbonPageGroup7.Name = "ribbonPageGroup7";
             this.ribbonPageGroup7.Text = "Yardım Alanı";
             // 
-            // barButtonItem16
+            // barButtonItem17
             // 
-            this.barButtonItem16.Caption = "adsadsa";
-            this.barButtonItem16.Id = 17;
-            this.barButtonItem16.Name = "barButtonItem16";
+            this.barButtonItem17.Caption = "BarışBDİ";
+            this.barButtonItem17.Id = 18;
+            this.barButtonItem17.Name = "barButtonItem17";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1283, 655);
+            this.ClientSize = new System.Drawing.Size(1497, 806);
             this.Controls.Add(this.ribbonControl1);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).EndInit();
@@ -442,6 +454,7 @@ namespace DXApplication1
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup11;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup10;
         private DevExpress.XtraBars.BarButtonItem barButtonItem16;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem17;
     }
 }
 
