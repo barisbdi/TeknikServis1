@@ -101,7 +101,7 @@ namespace DXApplication1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(340, 144);
+            this.ClientSize = new System.Drawing.Size(352, 157);
             this.Controls.Add(this.btnGiris);
             this.Controls.Add(this.txtSifre);
             this.Controls.Add(this.txtKullaniciAd);
