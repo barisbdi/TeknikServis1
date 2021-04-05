@@ -16,7 +16,7 @@ namespace DXApplication1
         {
             InitializeComponent();
         }
-
+        public string kullanici;
         private void Form1_Load(object sender, EventArgs e)
         {
             string exchangeRate = "http://www.tcmb.gov.tr/kurlar/today.xml";
@@ -48,6 +48,11 @@ namespace DXApplication1
                 fr.MdiParent = this; 
                 fr.Show();
             }
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

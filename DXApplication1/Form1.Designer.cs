@@ -120,10 +120,8 @@ namespace DXApplication1
             this.barStaticItem6,
             this.barStaticItem7});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ribbonControl1.MaxItemId = 29;
             this.ribbonControl1.Name = "ribbonControl1";
-            this.ribbonControl1.OptionsMenuMinWidth = 385;
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage8,
             this.ribbonPage2,
@@ -135,7 +133,7 @@ namespace DXApplication1
             this.ribbonControl1.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemPictureEdit1,
             this.repositoryItemImageEdit1});
-            this.ribbonControl1.Size = new System.Drawing.Size(1728, 183);
+            this.ribbonControl1.Size = new System.Drawing.Size(1481, 153);
             this.ribbonControl1.StatusBar = this.ribbonStatusBar1;
             // 
             // barButtonItem1
@@ -513,10 +511,11 @@ namespace DXApplication1
             this.ribbonStatusBar1.ItemLinks.Add(this.barStaticItem4);
             this.ribbonStatusBar1.ItemLinks.Add(this.barStaticItem6);
             this.ribbonStatusBar1.ItemLinks.Add(this.barStaticItem7);
-            this.ribbonStatusBar1.Location = new System.Drawing.Point(0, 670);
+            this.ribbonStatusBar1.Location = new System.Drawing.Point(0, 544);
+            this.ribbonStatusBar1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ribbonStatusBar1.Name = "ribbonStatusBar1";
             this.ribbonStatusBar1.Ribbon = this.ribbonControl1;
-            this.ribbonStatusBar1.Size = new System.Drawing.Size(1728, 33);
+            this.ribbonStatusBar1.Size = new System.Drawing.Size(1481, 27);
             // 
             // timer1
             // 
@@ -524,17 +523,17 @@ namespace DXApplication1
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1728, 703);
+            this.ClientSize = new System.Drawing.Size(1481, 571);
             this.Controls.Add(this.ribbonStatusBar1);
             this.Controls.Add(this.ribbonControl1);
             this.IsMdiContainer = true;
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "STOK KONTROL OTOMASYONU";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit1)).EndInit();
